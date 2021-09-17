@@ -66,8 +66,8 @@ public class Orange {
         //Creation d'une orange avec la provenance d'Islande
         System.out.println(fruit_orange.toString());
         //Affiche les informations de l'orange crée
-        Orange orange_20 = new Orange(50, "Islande");
-        //Création d'une deuxieme orange d'Islande
+        Orange orange_20 = new Orange(20, "Islande");
+        //Création d'une deuxieme orange d'Islande avec un prix différent
         System.out.println(fruit_orange.equals(orange_20));
 	System.out.println("premier test Orange");
    }
